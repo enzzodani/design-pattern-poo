@@ -18,28 +18,7 @@ Utilizar um objeto intermediário (proxy) que atua como substituto de outro obje
 
 **Diagrama de Classes:**
 
-```
-          +---------------------+
-          |        Subject      |
-          +---------------------+
-          |      request()      |
-          +----------+----------+
-                     ^
-                     |
-          +----------+----------+
-          |         Proxy       |
-          +---------------------+
-          |  RealSubject subject|
-          |      request()      |
-          +----------+----------+
-                     ^
-                     |
-          +----------+----------+
-          |     RealSubject     |
-          +---------------------+
-          |      request()      |
-          +---------------------+
-```
+![diagrama-de-classes](image.png)
 
 **Classes e Métodos em Java:**
 
